@@ -8,10 +8,10 @@ export default function NavBar(){
     <>
         <nav className={MenuClass}>
             <ul className="nav-list">
-                <li className="nav-item"><button className="text-white btn navigation-btn btn">Sobre</button></li>
-                <li className="nav-item"><button className="text-white btn navigation-btn btn">Redes Sociais</button></li>
-                <li className="nav-item"><button className="text-white btn navigation-btn btn">Contactar</button></li>
-                <li className="nav-item"><button className="text-white btn navigation-btn btn">Contribua</button></li>
+                <li className="nav-item"><button className="navigation-btn">Sobre</button></li>
+                <li className="nav-item"><button className="navigation-btn">Redes Sociais</button></li>
+                <li className="nav-item"><button className="navigation-btn">Contactar</button></li>
+                <li className="nav-item"><button className="navigation-btn">Contribua</button></li>
             </ul>
         </nav>
         <div className={ButtonClass} onClick={()=>{

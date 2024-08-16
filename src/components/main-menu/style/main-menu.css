@@ -1,5 +1,5 @@
 .main-menu{
-    background-color: var(--corPrincipal);
+    background-color: var(--cor4);
     padding: 0 20px;
 }
 .logo{
@@ -7,10 +7,11 @@
 }
 .nav-list{
     list-style: none;
+    margin-top: 25px;
 }
 .nav-bar{
     color: #fff;
-    background-color: #F29DEE;
+    background-color: #fff;
     min-width: 500px;
     max-width: 100vw;
     height: 100vh;
@@ -20,6 +21,15 @@
     transform: scaleX(0);
     transform-origin: right;
     transition: .5s;
+    box-shadow:  0 0 10px rgba(0, 0, 0, 0.295);
+}
+.navigation-btn{
+    color: black;
+    font-weight: bolder;
+    font-size: 1.5rem;
+    text-transform: uppercase;
+    border: none;
+    background: none;
 }
 .open-nav-bar{
     transform: scaleX(1);
@@ -33,14 +43,17 @@
     z-index: 2;
     cursor: pointer;
 }
+.active-btn>.menu-btn-bar{
+    background-color: black;
+}
 .active-btn>#bar1{
-    transform: rotate(45deg);    
+    transform: rotate(45deg)translateY(1px);    
 }
 .active-btn>#bar2{
     transform: scaleX(0);
 }
 .active-btn>#bar3{
-    transform: rotate(-45deg);
+    transform: rotate(-45deg)translateY(1px);
 }
 .menu-btn-bar{
     width: 100%;
