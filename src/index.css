@@ -1,10 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
-:root{
-    --corPrincipal:#F29DEE;
-    --cor1:#D99DF2;
-    --cor2:#F29DBB;
-    --cor3:#BD9DF2;
-    --cor4:#F2A49D;
+:root{   
+    --corPrincipal:#F2A49D;
+    --cor1:#F29DEE;
+    --cor2:#D99DF2;
+    --cor3:#F29DBB;
+    --cor4:#BD9DF2;
     --cor5:#F2C6F0;
 }
 *{
@@ -14,4 +14,8 @@
 }
 body{
     background-color: silver;
+}
+
+.begin-page{
+    background-color: var(--corPrincipal);
 }
