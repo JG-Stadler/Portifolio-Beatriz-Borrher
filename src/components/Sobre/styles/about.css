@@ -1,0 +1,22 @@
+.about{
+    background-color: var(--cor4);
+    color: #fff;
+    padding: 70px 0;
+}
+.about-txt{
+    width: 400px;
+    text-shadow: 0 2px 3px rgba(0, 0, 0, 0.5);
+}
+.about-tx>h1{
+    text-transform: uppercase;
+}
+.images-box>img{
+    width: 400px;
+    height: 400px;
+    max-width: 90vw;
+    max-height: 90vh;
+    object-fit: cover;
+    object-position: center center;
+    border-radius: 25px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.582);
+}
