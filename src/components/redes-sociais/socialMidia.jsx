@@ -4,11 +4,15 @@ import "./styles/social-midias.css"
 
 export default function SocialMidias(){
     return(
-        <section>
+        <section className="social-midias d-flex flex-column">
             <h1>Minhas principais redes sociais</h1>
-            <div className="links">
-                <a href="" className="social-midia-link"><img src={instagranLogo}/></a>
-                <a href="" className="social-midia-link"><img src={tiktokLogo}/></a>
+            <div className="links d-flex align-items-center justify-content-around">
+                <a href="
+                https://www.instagram.com/beaborrher/
+                " className="social-midia-link" title="Instagran"><img src={instagranLogo}/></a>
+                <a href="
+                https://www.tiktok.com/@beaborrher
+                " className="social-midia-link" title="TikTok"><img src={tiktokLogo}/></a>
             </div>
         </section>
     );

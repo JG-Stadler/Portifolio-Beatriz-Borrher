@@ -1,0 +1,17 @@
+.social-midias{
+    text-align: center;
+    gap: 70px;
+    padding: 70px 0;
+    color: #fff;
+    background-color: var(--cor3);
+}
+.social-midia-link>img{
+    width: 200px;
+    border-radius: 10px;
+}
+.social-midia-link{
+    transition: .5s;
+}
+.social-midia-link:hover{
+    transform: scale(1.2);
+}
