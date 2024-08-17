@@ -1,7 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Grey+Qo&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
-.presentation{
-
-}
+@import url('https://fonts.googleapis.com/css2?family=Edu+VIC+WA+NT+Beginner:wght@400..700&display=swap');
 .presentation-text{
     width: 600px;
     max-width: 86vw;
@@ -13,16 +11,9 @@
     margin: 0;
 }
 .presentation-text>h1{
-    font-size: 5rem;
+    font-size: 6rem;
+    position: relative;
     font-family: "Grey Qo";
-    position: relative
-}
-.presentation-text>h1::after{
-    content: "Digital creator";
-    position: absolute;
-    font-size: 30px;
-    top: 70%;
-    left: 40%;
 }
 .presentation-text>h2{
     font-size: medium;
@@ -32,7 +23,8 @@
     font-size: small;
 }
 .presentation-text>p{
-    margin-top: 40px;
+    margin-top: 10px;
+    font-family: "Edu VIC WA NT Beginner";
 }
 .insta-post-image{
     width: 400px;
