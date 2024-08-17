@@ -34,3 +34,7 @@
 .presentation-text>p{
     margin-top: 40px;
 }
+.insta-post-image{
+    width: 400px;
+    max-width: 90%;
+}
