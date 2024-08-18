@@ -1,0 +1,23 @@
+.contact{
+    background-color:var(--cor4);
+    padding-top: 40px;
+}
+.contact h1,.contact h2,.email-link{
+    margin: 0 !important;
+}
+.contact h2{
+    font-size: medium;
+}
+.email-link{
+    color: #fff;
+    font-size: 300px;
+    position: relative;
+}
+.email-link::before{
+    content: "Me envie um e-mail para negociarmos";
+    font-size: medium;
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    transform: translateX(-50%);
+}

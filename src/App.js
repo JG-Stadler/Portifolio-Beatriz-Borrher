@@ -3,6 +3,7 @@ import Presentation from "./components/Apresentação/presentation";
 import MainMenu from "./components/main-menu/mainMenu";
 import About from "./components/Sobre/about";
 import SocialMidias from "./components/redes-sociais/socialMidia";
+import Contact from "./components/contactar/contact.jsx";
 
 function App() {
   return (
@@ -11,8 +12,9 @@ function App() {
          <MainMenu/>
         <Presentation/>
       </main>
-      <About/> */}
-      <SocialMidias/>
+      <About/>
+      <SocialMidias/> */}
+      <Contact/>
     </div>
   );
 }
