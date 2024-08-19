@@ -13,8 +13,8 @@ function App() {
         <Presentation/>
       </main>
       <About/>
-      <SocialMidias/> */}
-      <Contact/>
+      <SocialMidias/>
+      <Contact/> */}
     </div>
   );
 }
