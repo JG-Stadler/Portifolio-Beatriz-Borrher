@@ -15,8 +15,9 @@ function App() {
       </main>
       <About/>
       <SocialMidias/>
-      <Contact/> */}
-      <Footer/>
+      <Contact/>
+      <Footer/> */}
+      <About/>
     </div>
   );
 }

@@ -10,6 +10,10 @@
 .about-tx>h1{
     text-transform: uppercase;
 }
+.about-txt>p{
+    text-indent: 10px;
+    text-align: justify;
+}
 .images-box>img{
     width: 400px;
     height: 400px;
