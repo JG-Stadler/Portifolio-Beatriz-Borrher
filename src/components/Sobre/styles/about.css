@@ -2,12 +2,15 @@
     background-color: var(--cor4);
     color: #fff;
     padding: 70px 0;
+    flex-direction: row-reverse;
+    gap: 20px;
 }
 .about-txt{
     width: 400px;
+    max-width: 90vw;
     text-shadow: 0 2px 3px rgba(0, 0, 0, 0.5);
 }
-.about-tx>h1{
+.about-txt>h1{
     text-transform: uppercase;
 }
 .about-txt>p{
@@ -18,9 +21,19 @@
     width: 400px;
     height: 400px;
     max-width: 90vw;
-    max-height: 90vh;
+    max-height: 90vw;
     object-fit: cover;
     object-position: center center;
     border-radius: 25px;
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.582);
+}
+@media (max-width:840px) {
+    .about{
+        padding: 15px 0;
+        flex-direction: column !important;
+        text-align: center;
+    }
+    .about-txt p{
+        text-align: center;
+    }
 }

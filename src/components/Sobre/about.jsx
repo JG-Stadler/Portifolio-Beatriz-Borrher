@@ -4,7 +4,7 @@ import "./styles/about.css"
 
 export default function About(){
     return(
-        <section className="about d-flex align-items-center justify-content-around flex-row-reverse">
+        <section className="about d-flex align-items-center justify-content-around">
             <main className="about-txt">
                 <h1>Quem é Bea Borrher?</h1>
                 <p>
