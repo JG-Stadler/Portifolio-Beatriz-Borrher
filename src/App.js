@@ -4,6 +4,7 @@ import MainMenu from "./components/main-menu/mainMenu";
 import About from "./components/Sobre/about";
 import SocialMidias from "./components/redes-sociais/socialMidia";
 import Contact from "./components/contactar/contact.jsx";
+import Footer from "./components/rodapé/footer.jsx";
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
       <About/>
       <SocialMidias/>
       <Contact/> */}
+      <Footer/>
     </div>
   );
 }
