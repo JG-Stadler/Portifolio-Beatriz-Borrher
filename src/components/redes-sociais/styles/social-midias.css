@@ -1,17 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
 .social-midias{
-    text-align: center;
     gap: 70px;
     padding: 70px 0;
-    color: #fff;
-    background-color: var(--cor3);
+    background-image: url(../../../images/background-redes-sociais.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+.social-midias h1{
+    font-family: "Pacifico",system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-shadow: 0 5px 10px rgba(0, 0, 0, 0.699);
+    text-align: center;
+    font-size: 2rem;
+}
+.links{
+    gap: 30px;
 }
 .social-midia-link>img{
     width: 200px;
+    max-width: 85vw;
     border-radius: 10px;
+    filter: grayscale(40%);
+}
+.social-midia-link:hover>img{
+    filter: grayscale(0);
 }
 .social-midia-link{
     transition: .5s;
 }
 .social-midia-link:hover{
-    transform: scale(1.2);
+    transform: scale(1.05);
+    animation: Float 2s linear infinite;
+}
+@media (max-width:440px) {
+    .social-midia-link>img{
+        filter: grayscale(0);
+    }
+}
+@keyframes Float {
+    0% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(-20px);
+    }
+    100% {
+        transform: translateY(0);
+    }
 }

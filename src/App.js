@@ -13,11 +13,10 @@ function App() {
          <MainMenu/>
         <Presentation/>
       </main>
-      <About/>
+      <About/> */}
       <SocialMidias/>
-      <Contact/>
+      {/* <Contact/>
       <Footer/> */}
-      <About/>
     </div>
   );
 }

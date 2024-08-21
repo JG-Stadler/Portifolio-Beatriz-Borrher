@@ -6,6 +6,7 @@
     gap: 20px;
 }
 .about-txt{
+    text-align: center;
     width: 400px;
     max-width: 90vw;
     text-shadow: 0 2px 3px rgba(0, 0, 0, 0.5);
@@ -31,7 +32,6 @@
     .about{
         padding: 15px 0;
         flex-direction: column !important;
-        text-align: center;
     }
     .about-txt p{
         text-align: center;
