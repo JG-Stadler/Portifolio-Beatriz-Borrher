@@ -11,8 +11,12 @@ export default function Footer(){
         <FooterNav/>
         <nav className="social-midia-links-ft d-flex
         align-items-center">
-            <a href="#" className="nav-link"><FaInstagram/></a>
-            <a href="#" className="nav-link"><FaTiktok/></a>
+            <a href="
+            https://www.instagram.com/beaborrher/
+            " className="nav-link"><FaInstagram/></a>
+            <a href="
+            https://www.tiktok.com/@beaborrher
+            " className="nav-link"><FaTiktok/></a>
         </nav>
 
         <aside className="credits">

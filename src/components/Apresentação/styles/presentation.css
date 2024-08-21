@@ -1,33 +1,72 @@
 @import url('https://fonts.googleapis.com/css2?family=Grey+Qo&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Edu+VIC+WA+NT+Beginner:wght@400..700&display=swap');
-.presentation-text{
+.presentation{
+    display: grid;
+    place-content: center;
+    column-gap: 40px;
+    grid-template-columns: repeat(2,40%);
+    /* grid-template-rows: repeat(2,50%); */
+    grid-auto-rows: auto;
+}
+/* .presentation{
     width: 600px;
     max-width: 86vw;
     line-height: 1rem;
-}
-.presentation-text>h1,
-.presentation-text>h2,
-.presentation-text>h3{
-    margin: 0;
-}
-.presentation-text>h1{
+} */
+.presentation h1{
     font-size: 6rem;
     position: relative;
     font-family: "Grey Qo";
+    margin: 0;
+    grid-column: 1;
+    grid-row: 1;
+    align-self: flex-end;
 }
-.presentation-text>h2{
-    font-size: medium;
-    line-height: 0;
-}
-.presentation-text>h3{
-    font-size: small;
-}
-.presentation-text>p{
+.presentation p{
     margin-top: 10px;
     font-family: "Edu VIC WA NT Beginner";
     font-size: 1.5rem;
+    grid-column: 1;
+    grid-row: 2;
+    align-self: flex-start;
+}
+.presentation h1,.presentation p{
+    width: 100%;
+}
+.presentation>figure{
+    grid-row: 1/3;
+    grid-column: 2;
 }
 .insta-post-image{
     width: 400px;
-    max-width: 90%;
+    max-width: 85%;
 }
+@media (max-width:910px) {
+    .presentation{
+        display: grid !important;
+        grid-template-columns: 100%;
+        text-align: center;
+    }
+    .presentation h1{
+        grid-column: 1;
+        grid-row: 1;
+        line-height: 6rem;
+    }
+    .presentation figure{
+        grid-column: 1;
+        grid-row: 2;
+    }
+    .insta-post-image{
+        height: 100%;
+    }
+    .presentation p{
+        grid-column: 1;
+        grid-row: 3;
+        font-size: 2rem;
+    }
+}
+/* @media (max-width:410px) {
+    .presentation{
+       margin-top: 100px;
+    }
+} */
