@@ -13,6 +13,10 @@
     font-family: "Roboto",Arial, Helvetica, sans-serif;
 }
 .begin-page{
-    background-image: linear-gradient(45deg,var(--corPrincipal),var(--cor1));
+    /* background-image: linear-gradient(45deg,var(--corPrincipal),var(--cor1)); */
+    background-image: url(images/background-pagina-de-apresentacao.jpg);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
     min-height: 100vh;
 }
