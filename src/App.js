@@ -9,13 +9,13 @@ import Footer from "./components/rodapé/footer.jsx";
 function App() {
   return (
     <div className="App">
-      <main className="begin-page">
+      {/* <main className="begin-page">
          <MainMenu/>
         <Presentation/>
       </main>
-      {/* <About/> */}
-      {/* <SocialMidias/> */}
-      {/* <Contact/> */}
+      <About/>
+      <SocialMidias/> */}
+      <Contact/>
       {/* <Footer/> */}
     </div>
   );
