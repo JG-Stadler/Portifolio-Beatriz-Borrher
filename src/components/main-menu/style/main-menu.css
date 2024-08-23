@@ -9,26 +9,29 @@
     margin-top: 25px;
 }
 .nav-bar{
-    color: #fff;
-    background-color: #fff;
-    min-width: 500px;
-    max-width: 100vw;
+    background-color: #3b3b3b69;
+    width: 100vw;
     height: 100vh;
     position: fixed;
     top: 0;
     right: 0;
     transform: scaleX(0);
-    transform-origin: right;
     transition: .5s;
-    box-shadow:  0 0 10px rgba(0, 0, 0, 0.295);
+    position: fixed;
+    text-align: center;
+    display: grid;
+    place-content: center;
+    z-index: 2;
+    backdrop-filter: blur(10px);
+
 }
 .navigation-btn{
-    color: black;
     font-weight: bolder;
     font-size: 1.5rem;
     text-transform: uppercase;
     border: none;
     background: none;
+    z-index: 3;
 }
 .open-nav-bar{
     transform: scaleX(1);
@@ -43,16 +46,16 @@
     cursor: pointer;
 }
 .active-btn>.menu-btn-bar{
-    background-color: black;
+    background-color: #fff;
 }
 .active-btn>#bar1{
-    transform: rotate(45deg)translateY(1px);    
+    transform: rotate(45deg)translateY(-1px);    
 }
 .active-btn>#bar2{
     transform: scaleX(0);
 }
 .active-btn>#bar3{
-    transform: rotate(-45deg)translateY(1px);
+    transform: rotate(-45deg);
 }
 .menu-btn-bar{
     width: 100%;

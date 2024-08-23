@@ -5,14 +5,9 @@
     place-content: center;
     column-gap: 40px;
     grid-template-columns: repeat(2,40%);
-    /* grid-template-rows: repeat(2,50%); */
     grid-auto-rows: auto;
+    text-shadow: 0 0 5px rgba(0, 0, 0, 0.63);
 }
-/* .presentation{
-    width: 600px;
-    max-width: 86vw;
-    line-height: 1rem;
-} */
 .presentation h1{
     font-size: 6rem;
     position: relative;
