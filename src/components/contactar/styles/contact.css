@@ -7,7 +7,7 @@
     align-items: center;
     justify-content: end;
     min-height: 320px;
-    padding: 0 10px;
+    padding: 100px 10px;
     background-repeat: no-repeat;
 }
 .contact>div{
@@ -43,27 +43,6 @@
     align-self: flex-start;
     /* animation: shake 1s linear infinite; */
 }
-/* .email-link::before{
-    content: "Me envie um e-mail para negociarmos";
-    font-size: medium;
-    position: absolute;
-    top: 20%;
-    left: 50%;
-    transform: translateX(-50%);
-} */
-/* .bea-background{
-    width: 600px;
-    min-width: 45%;
-    max-width: 100%;
-    position: absolute;
-    top: 0;
-    left: 0;
-    height: 100%;
-    background-image: url(../../../images/foto-bea-email-page.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: top center;
-} */
  .bea-img-left-side{
     width: 100%;
     height: 400px;
@@ -76,20 +55,20 @@
  @keyframes shake {
     0% { transform: translate(0, 0) rotate(0deg); }
     25% { transform: translate(5px, 5px) rotate(5deg); }
-    50% { transform: translate(0, 0) rotate(0eg); }
+    50% { transform: translate(0, 0) rotate(0deg); }
     75% { transform: translate(-5px, 5px) rotate(-5deg); }
     100% { transform: translate(0, 0) rotate(0deg); }
 }
-@media (max-width:612px) {
+@media (max-width:850px) {
     .contact{
         background-image: url(../../../images/background-contact-mobile.jpg);
         justify-content: center;
+        padding: 0 10px;
         background-position: top center;
-        /* height: 800px; */
     }
     .contact>div{
         width: 100%;
-        margin-top: 250px;
+        margin-top: 50%;
         margin-bottom: 100px;
     }
 }

@@ -8,7 +8,9 @@ export default function Contact(){
         text-center d-flex">
             <div>
                 <h1 className="text-upppercase text-center">Deseja me contratar para uma parceria?</h1>
-                <a href="#" className="email-link">
+                <a href="
+                mailto:beatrizbsantos83@gmail.com
+                " className="email-link" target="_blank">
                     <MdOutlineMailOutline/>
                 </a>
                 <h4>Clique no botão e me envie um email</h4>
