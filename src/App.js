@@ -13,10 +13,10 @@ function App() {
          <MainMenu/>
         <Presentation/>
       </main>
-      {/* <About/>
+      <About/>
       <SocialMidias/>
       <Contact/>
-      <Footer/> */}
+      <Footer/>
     </div>
   );
 }

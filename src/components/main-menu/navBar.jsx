@@ -1,4 +1,5 @@
 import { useState } from "react";
+import NavButton from "./navButton";
 
 export default function NavBar(){
     const body = document.querySelector("body");
@@ -9,10 +10,15 @@ export default function NavBar(){
     <>
         <nav className={MenuClass}>
             <ul className="nav-list">
-                <li className="nav-item"><button className="navigation-btn text-white">Sobre</button></li>
-                <li className="nav-item"><button className="navigation-btn text-white">Redes Sociais</button></li>
-                <li className="nav-item"><button className="navigation-btn text-white">Contactar</button></li>
-                <li className="nav-item"><button className="navigation-btn text-white">Contribua</button></li>
+                <NavButton text="Sobre"/>
+                <NavButton text="Redes Sociais"/>
+                <NavButton text="Contactar"/>
+                <NavButton text="Contribua"/>
+                {/* <NavButton text=""/> */}
+                {/* <li className="nav-item"><button className="navigation-btn text-white"></button></li>
+                <li className="nav-item"><button className="navigation-btn text-white"></button></li>
+                <li className="nav-item"><button className="navigation-btn text-white"></button></li>
+                <li className="nav-item"><button className="navigation-btn text-white"></button></li> */}
             </ul>
         </nav>
         <div className={ButtonClass} onClick={()=>{
