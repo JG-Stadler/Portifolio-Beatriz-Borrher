@@ -13,14 +13,15 @@ export default function Footer(){
         align-items-center">
             <a href="
             https://www.instagram.com/beaborrher/
-            " className="nav-link"><FaInstagram/></a>
+            " className="nav-link" target="_blank"><FaInstagram/></a>
             <a href="
             https://www.tiktok.com/@beaborrher
-            " className="nav-link"><FaTiktok/></a>
+            " className="nav-link" target="_blank"><FaTiktok/></a>
         </nav>
 
         <aside className="credits">
-            <h3>Site desenvolvido por: <a href="#">João Stadler</a></h3>
+            <h3>Site desenvolvido por: <a href="
+            https://jg-stadler.github.io/Lista-de-links-JG-Stadler/" target="_blank">João Stadler</a></h3>
         </aside>           
     </footer>
     );

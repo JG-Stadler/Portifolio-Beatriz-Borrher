@@ -7,7 +7,6 @@
     grid-template-columns: repeat(2,40%);
     grid-auto-rows: auto;
     text-shadow: 0 0 5px rgba(0, 0, 0, 0.63);
-    padding-top: 100px;
 }
 .presentation h1{
     font-size: 6rem;

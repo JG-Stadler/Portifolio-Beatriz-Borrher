@@ -4,8 +4,7 @@ import "./styles/about.css"
 
 export default function About(){
     return(
-        <section className="about d-flex align-items-center justify-content-around">
-            <main className="about-txt">
+        <section className="about d-grid">
                 <h1>Quem é Bea Borrher?</h1>
                 <p>
                     Sou uma criadora de conteúdo e tiktoker agenciada pela  <strong>curli</strong>.
@@ -15,10 +14,7 @@ export default function About(){
                     participando ativamente das atividades da minha igreja ou assistindo a uma série envolvente.
                     Cada uma dessas atividades alimenta minha criatividade e me ajuda a trazer um toque especial aos meus conteúdos.
                  </p>
-            </main>
-            <div className="images-box">
-                <img src={FotoBea1}/>
-            </div>
+                <img src={FotoBea1} className="image-bea-about"/>
         </section>
     )
 }

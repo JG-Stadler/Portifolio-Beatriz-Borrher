@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
 .social-midias{
     gap: 70px;
-    padding: 70px 0;
+    padding: 80px 20px;
     background-image: url(../../../images/background-redes-sociais.jpg);
     background-size: cover;
     background-repeat: no-repeat;
