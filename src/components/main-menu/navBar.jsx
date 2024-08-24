@@ -10,22 +10,20 @@ export default function NavBar(){
     <>
         <nav className={MenuClass}>
             <ul className="nav-list">
-                <NavButton text="Sobre"/>
+                {/* <NavButton text="Sobre"/>
                 <NavButton text="Redes Sociais"/>
                 <NavButton text="Contactar"/>
-                <NavButton text="Contribua"/>
-                {/* <NavButton text=""/> */}
-                {/* <li className="nav-item"><button className="navigation-btn text-white"></button></li>
+                <NavButton text="Contribua"/> */}
                 <li className="nav-item"><button className="navigation-btn text-white"></button></li>
                 <li className="nav-item"><button className="navigation-btn text-white"></button></li>
-                <li className="nav-item"><button className="navigation-btn text-white"></button></li> */}
+                <li className="nav-item"><button className="navigation-btn text-white"></button></li>
+                <li className="nav-item"><button className="navigation-btn text-white"></button></li>
             </ul>
         </nav>
         <div className={ButtonClass} onClick={()=>{
             if(MenuClass === "nav-bar"){
                 SetMenuClass("nav-bar open-nav-bar");
                 SetButtonClass("menu-activation-btn active-btn");
-                body.style.overflow = "hidden";
             }
             else{
                 SetMenuClass("nav-bar");
