@@ -7,6 +7,11 @@
     grid-template-columns: repeat(2,40%);
     grid-auto-rows: auto;
     text-shadow: 0 0 5px rgba(0, 0, 0, 0.63);
+    background-image: url(../../../images/background-pagina-de-apresentacao.jpg);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    min-height: 100vh;
 }
 .presentation h1{
     font-size: 6rem;
