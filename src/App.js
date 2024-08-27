@@ -4,15 +4,17 @@ import About from "./components/Sobre/about";
 import SocialMidias from "./components/redes-sociais/socialMidia";
 import Contact from "./components/contactar/contact.jsx";
 import Footer from "./components/rodapé/footer.jsx";
+import Comunity from "./components/comunidade/cumunity.jsx";
 
 function App() {
   return (
     <div className="App">
-      <Presentation/>
+      {/* <Presentation/>
       <About/>
-      <SocialMidias/>
-      <Contact/>
-      <Footer/>
+      <SocialMidias/> */}
+      <Comunity/>
+      {/* <Contact/>
+      <Footer/> */}
     </div>
   );
 }
