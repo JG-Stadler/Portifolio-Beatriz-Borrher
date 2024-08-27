@@ -9,12 +9,12 @@ import Comunity from "./components/comunidade/cumunity.jsx";
 function App() {
   return (
     <div className="App">
-      {/* <Presentation/>
+      <Presentation/>
       <About/>
-      <SocialMidias/> */}
+      <SocialMidias/>
       <Comunity/>
-      {/* <Contact/>
-      <Footer/> */}
+      <Contact/>
+      <Footer/>
     </div>
   );
 }
